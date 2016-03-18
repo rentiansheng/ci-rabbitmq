@@ -1,3 +1,4 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
 * @file rabbitmq.php
 * @Synopsis  
@@ -6,8 +7,6 @@
 * @version 1.0.0
 * @date 2014-12-28
  */
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
 class Rabbitmq 
 {
     protected $_config = array('host' => '127.0.0.1', 'port' => '5672', 'vhost' => '/', 'login' => 'guest', 'password' => 'guest');
@@ -187,4 +186,3 @@ class Rabbitmq
 
 
 }
-
