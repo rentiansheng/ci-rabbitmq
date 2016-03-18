@@ -1,3 +1,4 @@
+<?php
 /**
 * @file rabbitmqmodel.php
 * @Synopsis  
@@ -6,8 +7,6 @@
 * @version 1.0.0
 * @date 2014-12-28
  */
-<?php
-
 class rabbitmqModel extends MY_Model
 {
 
